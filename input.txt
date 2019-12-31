@@ -1,0 +1,8 @@
+3
+S->AB|a|BA
+A->AS|b
+B->BA|AS|b
+3
+bbbba
+bbba
+b

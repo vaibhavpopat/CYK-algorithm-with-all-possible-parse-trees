@@ -1,0 +1,100 @@
+String - bbbba
+S->AB 
+A->b B->AS 
+A->b S->AB 
+A->b B->AS 
+A->b S->a 
+
+S->AB 
+A->b B->AS 
+A->b S->BA 
+B->b A->AS 
+A->b S->a 
+
+S->AB 
+A->b B->BA 
+B->BA A->AS 
+B->b A->b A->b S->a 
+
+S->AB 
+A->b B->AS 
+A->AS S->a 
+A->b S->AB 
+A->b B->b 
+
+S->AB 
+A->b B->AS 
+A->AS S->a 
+A->b S->BA 
+B->b A->b 
+
+S->BA 
+B->b A->AS 
+A->b S->AB 
+A->b B->AS 
+A->b S->a 
+
+S->BA 
+B->b A->AS 
+A->b S->BA 
+B->b A->AS 
+A->b S->a 
+
+S->BA 
+B->b A->AS 
+A->AS S->a 
+A->b S->AB 
+A->b B->b 
+
+S->BA 
+B->b A->AS 
+A->AS S->a 
+A->b S->BA 
+B->b A->b 
+
+S->AB 
+A->AS B->AS 
+A->b S->AB A->b S->a 
+A->b B->b 
+
+S->BA 
+B->AS A->AS 
+A->b S->AB A->b S->a 
+A->b B->b 
+
+S->AB 
+A->AS B->AS 
+A->b S->BA A->b S->a 
+B->b A->b 
+
+S->BA 
+B->AS A->AS 
+A->b S->BA A->b S->a 
+B->b A->b 
+
+S->BA 
+B->BA A->AS 
+B->BA A->b A->b S->a 
+B->b A->b 
+
+Total unique trees: 14
+
+
+String - bbba
+S->AB 
+A->b B->BA 
+B->b A->AS 
+A->b S->a 
+
+S->BA 
+B->BA A->AS 
+B->b A->b A->b S->a 
+
+Total unique trees: 2
+
+
+String - b
+Total unique trees: 0
+Hence, string is not accepted.
+
+
